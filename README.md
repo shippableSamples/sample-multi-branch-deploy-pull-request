@@ -1,4 +1,4 @@
-Sample for multiple environments
+Sample for Multiple Environments
 ================================
 
 This sample demonstrates how to setup continuous integration and deployment of an Express+MongoDB
@@ -40,3 +40,5 @@ to add this variable as a secure (encrypted) one.
 
 For more detailed documentation on Heroku deployment, please see Shippable's continuous
 deployment section: http://docs.shippable.com/en/latest/config.html#continuous-deployment
+
+This sample is built for Shippable, a docker based continuous integration and deployment platform.

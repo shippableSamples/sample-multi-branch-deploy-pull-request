@@ -7,7 +7,7 @@
 [[ $BRANCH = 'production' ]] && REMOTE=production || REMOTE=staging
 
 # push to Heroku
-git push -f $REMOTE master
+git push -f $REMOTE $BRANCH:master
 
 # submit pull request for the production deployment if applicable
 [[ $REMOTE = 'staging' ]] && ./github_promotion.sh

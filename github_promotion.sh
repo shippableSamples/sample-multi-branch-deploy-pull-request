@@ -1,6 +1,9 @@
 #!/bin/bash
 tag="shippable-build-$BUILD_NUMBER"
 
+git config user.name "Shippable"
+git config user.email "minion@shippable.com"
+
 # we need to create an annotated tag with message containing '[skip ci]' to prevent
 # invoking another build for pushing the tag
 git checkout $BRANCH
